@@ -1,1 +1,15 @@
+# 1. Inicjalizacja repozytorium Git
+git init
 
+# 2. Dodanie pliku do śledzenia
+echo "# Moje pierwsze repo" > README.md
+git add README.md
+
+# 3. Wykonanie pierwszego commita
+git commit -m "Pierwszy commit – dodano README"
+
+# 4. Podpięcie zdalnego repozytorium (wstaw swój URL poniżej)
+git remote add origin https://github.com/twoja-nazwa-uzytkownika/nazwa-repo.git
+
+# 5. Wysłanie kodu na GitHub (gałąź main lub master, zależnie od repo)
+git push -u origin main
